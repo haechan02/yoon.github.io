@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet">
+
     <title>45기 윤해찬 Home</title>
     <!-- Include the Slick Carousel CSS -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
@@ -15,12 +17,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<!-- Include the Slick Carousel JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
 
     <header>
         <div class="header-container">
-            <h1>Hae Chan Yoon</h1>
+            <h2 style="font-weight: lighter; font-size: 26px;">Hae Chan Yoon</h2>
+            <h4 style="font-size:13px; font-weight: lighter;" ">45th Wecode</h4>
             <nav>
                 <ul>
                     <li><a href="index.html" class="selected"><span>Refresh</span></a></li>
@@ -34,14 +39,22 @@
         <!-- Welcome Part -->
         <div class="welcome-container">
             <div class="left-container">
-                <p style="font-size: 50px;">HELLO & WELCOME 🎉</p>
-                <p style="font-size: 50px;">45기 윤해찬's</p>
-                <p style="font-size: 50px;">Portfolio sites</p>
+                <div class="introduction-paragraph">
+                    <p style="font-size: 100px; font-weight: bold;">Hello.</p>
+                    <div class="paragraph-intro">
+                        <p style="font-size: 28px;">Bio.</p>
+                        <p style="font-size: 12px;">Hello? I'm Hae Chan Yoon! I'm happy to meet you all. You can always send me the mails if you need something to ask me or dm me thru the slack! </p>
+                        <p class="rainbow-text">The music I have linked on this site contains explicit content.</p>
+                    </div>
+                    <button class="button">button for nothing</button>
+                    <br>
+                    <img id="pae" src="img/PAE.png">
+                </div>
             </div>
 
             <div class="right-container">
                 <div class="main-contents">
-                    <img class="proImg" src="img/IMG_4965.JPG">
+                    <img class="proImg" src="img/IMG_4965 2.JPG">
                 </div>
             </div>
         </div>
@@ -54,13 +67,13 @@
             <br>
             <div class="main-contents">
                 <div class="carousel">
-                    <img id="hoverImage" src="img/star" width="50%">
-                    <img id="hoverImage" src="img/fifth.3032706104_4egz-211737842" width="50%">
-                    <img id="hoverImage" src="img/total" width="50%">
-                    <img id="hoverImage" src="img/upgrade" width="50%">
-                    <img id="hoverImage" src="img/termi" width="50%">
-                    <img id="hoverImage" src="img/django" width="50%">
-                    <img id="hoverImage" src="img/reser.560f746facf9e-3371887337" width="50%">
+                    <img src="img/star" width="50%">
+                    <img src="img/fifth.3032706104_4egz-211737842" width="50%">
+                    <img src="img/total" width="50%">
+                    <img src="img/upgrade" width="50%">
+                    <img src="img/termi" width="50%">
+                    <img src="img/django" width="50%">
+                    <img src="img/reser.560f746facf9e-3371887337" width="50%">
                 </div>
             </div>    
         </div>
@@ -68,17 +81,35 @@
         <!-- Music I like -->
         <div class="music-container">
 
-            <h1 style="color: #EEEBDD;">My favorite Musics 🎵</h1>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hWlYEaxubRY?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1 style="color: #EEEBDD;">My favorite Musics</h1>
+            
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-pVHC1DXQ7U?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hWlYEaxubRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AViTUY2EtMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ak4vLEBxIo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <!-- LOGOS -->
+            <div class="logos">
+                
+                <img id="brainfeeder" src="img/brainfeeder">
+                <img id="xo" src="img/XO">
+                <img id="tame" src="img/tame">
+                <img src="img/hiatus">
+                <img src="img/ovo" alt="">
+            </div>
+            
         </div>
 
 
         <!-- Thank You Part -->
         <div class="thank-container">
             <div class="thank-container-back">
-
-                <h1 style="color: #EEEBDD;">Thank You!</h1>
+                <div class="thank-container-back-p">
+                    <h1>Thank You!</h1>
+                    <br>
+                    <h4 style="font-size: 12px;">All the inquiry please use my e-mails.</h4>
+                </div>
             </div>
         </div>
     </main>
@@ -89,6 +120,8 @@
 
     <!-- Footer Part -->
     <footer id="footer">
+        <i class="fas fa-eye-slash"></i>
+        <p style="font-size: 10px;">mouse over to hide</p>
         <span>Contact Info</span>
         <p>E-mail. hecyoon@gmail.com</p>
         <p>&copy; 2023 HaeChanYoon 45기</p>
